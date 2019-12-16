@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../guomei/client/js/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <script>
+        var arr = [];
+        var oDiv = $('.hideSmallBox');
+        $(oDiv).toArray().forEach(function (param) {
+            var res = {};
+            res.src = $(param).find('.item-pic').find('img')[0].src;
+            res.price = $(param).find('.asynPrice')[0].innerText;
+            res.title = $(param).find('.item-name')[0].innerText;
+            res.discuss = $(param).find('.item-comment-dispatching')[0].innerText;
+            res.selle = $(param).find('.item-shop')[0].innerText;
+            arr.push(res);
+        })
+        JSON.stringify(arr);
+    </script>
+</body>
+
+</html>

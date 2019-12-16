@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/captcha.js"></script>
+    <script src="../js/register.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="" id="Login">
+        <div class="head">
+            <div class="content">
+                <div class="logo">
+                    <a href="https://www.gome.com.cn/">国美</a>
+                </div>
+                <p class="login_title">
+                    我已经注册，现在就<a href="http://127.0.0.1/index/guomei/client/html/Login.html">登录</a>
+                </p>
+            </div>
+        </div>
+        <div class="body">
+            <div class="content">
+                <div class="step-progress">
+                    <div class="step-slider">
+                        <ul>
+                            <li class="step-li1"></li>
+                            <li class="step-li2"></li>
+                        </ul>
+                        <div class="step-active" id="step1">
+                            <div class="step-icon-pos stepSuc step-icon1"></div>
+                            <div class="step-info step-info1">
+                                <div>验证手机号</div>
+                            </div>
+                        </div>
+                        <div class="step-active" id="step2">
+                            <div class="step-icon-pos step-icon step-icon2">2</div>
+                            <div class="step-info step-info2">
+                                <div>填写账户信息</div>
+                            </div>
+                        </div>
+                        <div class="step-active" id="step2">
+                            <div class="step-icon-pos step-icon step-icon3">3</div>
+                            <div class="step-info step-info3">
+                                <div>注册成功</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-content">
+                        <form action="">
+                            <div class="form-group err">
+                                <input type="text" placeholder="请输入用户名" class="form-control focus" id="username">
+                                <div class="C_err_tips"></div>
+                            </div>
+                            <div class="form-group err">
+                                <input type="text" placeholder="请输入密码" class="form-control focus" id="password">
+                                <div class="C_err_tips"></div>
+                            </div>
+                            <div class="form-group err form12">
+                                <input type="text" placeholder="请输入验证码" class="form-control1 focus"
+                                    id="identifying_code">
+                                <div class="qwer"><canvas width="145" height="40" id="captcha1"></canvas></div>
+                                <div class="C_err_tips"></div>
+                            </div>
+                            <div class="form-group-submit">
+                                <a href="javascript:;" class="button btn-primary wbtn1">注册</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="content">
+                <div class="foot_list">
+                    <ul>
+                        <li><a href="">国美控股集团</a></li>
+                        <li><a href="">国美管家</a></li>
+                        <li><a href="">关于国美</a></li>
+                        <li><a href="">加入我们</a></li>
+                        <li>|</li>
+                        <li><a href="">品牌大全</a></li>
+                        <li><a href="">商品专题</a></li>
+                        <li><a href="">商品词</a></li>
+                        <li><a href="">热词搜索</a></li>
+                        <li><a href="">友情链接</a></li>
+                        <li><a href="">风险监测</a></li>
+                        <li>|</li>
+                        <li><a href="">销售联盟</a></li>
+                        <li><a href="">商家入驻</a></li>
+                        <li><a href="">国美分销</a></li>
+                    </ul>
+                </div>
+                <div class="foot_text">
+                    <p>本公司游戏产品适合18岁以上成年人使用 违法和不良信息举报电话：021-39900132&nbsp;&nbsp;
+                        <a href="" class="foot_a">互联网药品信息服务资格证编号（沪）-经营性-2019-0006</a></p>
+                    <p>网络食品销售第三方平台提供者备案：沪网食备A0015号&nbsp;&nbsp;
+                        <a href="" class="foot_a">网络文化经营许可证沪网文[2017]5537-436号</a>&nbsp;&nbsp;
+                        <a href="" class="foot_a">增值电信业务经营许可证</a>
+                    </p>
+                    <p>客服电话:4008113333&nbsp;&nbsp;
+                        <a href="" class="foot_a">沪ICP备11009419号/京ICP备 19011786号 </a>&nbsp;&nbsp;
+                        <a href="" class="foot_a">京B2-20191290 </a>&nbsp;&nbsp;
+                        <a href="" class="foot_a">经营执照</a>&nbsp;&nbsp;
+                        <a href="" class="foot_a">营业执照</a>&nbsp;&nbsp;
+                        <a href="" class="foot_a">出版物经营许可证</a>
+                    </p>
+                    <p>©2000-2019 国美在线电子商务有限公司版权所有&nbsp;&nbsp;
+                        <a href="" class="foot_a foot_a1">
+                            <i class="foot_icon"></i>
+                            京公网安备 11010502038379号</a>
+                    </p>
+                </div>
+                <div class="foot_credit">
+                    <a href="" class="credit_icon1">
+                        <i></i>
+                        <b>经营性网站备案信息</b>
+                    </a>
+                    <a href="" class="credit_icon2">
+                        <i></i>
+                        <b>可信网站信用评价</b>
+                    </a>
+                    <a href="" class="credit_icon3">
+                        <i></i>
+                        <b>诚信网站</b>
+                    </a>
+                    <a href="" class="credit_icon4">
+                        <i></i>
+                        <b>朝阳网络警察</b>
+                    </a>
+                    <a href="" class="credit_icon5">
+                        <i></i>
+                        <b>网购大家评</b>
+                    </a>
+                    <a href="" class="credit_icon6">
+                        <i></i>
+                        <b>上海市互联网违法和不良信息举报中心</b>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
