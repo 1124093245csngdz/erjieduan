@@ -79,5 +79,924 @@
     margin-top: -4px;
     background-repeat: no-repeat;
 }
+#logo {
+    float: left;
+    margin: 32px 10px 0 0;
+}
+#logo a {
+    display: block;
+    width: 125px;
+    height: 56px;
+    background: url(../img/logo.png) 0 0 no-repeat;
+    text-indent: -99px;
+    overflow: hidden;
+}
+#slogan {
+    float: left;
+    margin: 35px 0 0 10px;
+    width: 162px;
+    height: 50px;
+    background: url(../img/ui.png) 0 -1165px;
+    display: block;
+}
+.topsearch {
+    position: absolute;
+    width: 500px;
+    top: 32px;
+    left: 385px;
+    z-index: 91;
+}
+.searchbox {
+    border: 1px solid #dd00a7;
+    position: relative;
+    font-size: 14px;
+    height: 30px;
+    background: #fff;
+}
+#search-type-dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: #A5A5A5;
+    float: left;
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+}
+#search-type-dropdown .search-type {
+    position: relative;
+    width: 42px;
+    padding: 0 10px;
+    height: 30px;
+    border-right: 1px solid #dd00a7;
+}
+#search-type-dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: #A5A5A5;
+    float: left;
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+}
+#search-type-dropdown .search-type i {
+    position: absolute;
+    width: 11px;
+    height: 7px;
+    right: 9px;
+    top: 11px;
+    background: url(../img/ui.png) -145px -1469px;
+}
+#gome-head .content {
+    position: relative;
+    height: 120px;
+    vertical-align: middle;
+    z-index: 980;
+}
+#search-type-dropdown .search-type-list {
+    display: none;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: 30px;
+    border: 1px solid #dd00a7;
+    background-color: #fff;
+}
+#search-type-dropdown .search-type-item {
+    width: 42px;
+    padding: 0 10px;
+    height: 25px;
+    line-height: 25px;
+}
+.searchbox input {
+    /* border: none; */
+    width: 310px;
+    padding: 5px 5px 5px 72px;
+    line-height: 20px;
+    float: left;
+    font-size: 14px;
+    font-family: arial;
+    color: #5E5E5E;
+    background-color: transparent;
+}
+.searchbox label {
+    font-family: 'microsoft yahei';
+    position: absolute;
+    top: 0;
+    left: 72px;
+    right: 110px;
+    line-height: 30px;
+    height: 30px;
+    /* overflow: hidden; */
+    color: #bbb;
+    cursor: text;
+}
+.searchbox {
+    border: 1px solid #dd00a7;
+    position: relative;
+    font-size: 14px;
+    height: 30px;
+    background: #fff;
+}
+.searchbox button {
+    width: 90px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    display: inline;
+    background: #dd00a7;
+    font: 16px/30px 'microsoft yahei';
+    color: #fff;
+    letter-spacing: 2px;
+    text-indent: 0;
+}
+.voice-search {
+    margin-right: 3px;
+    opacity: .55;
+    filter: alpha(opacity=55);
+    float: right;
+    padding: 5px 0;
+    cursor: pointer;
+    width: 15px;
+    height: 20px;
+    background: url(../img/下载.png) no-repeat no-repeat center;
+    background-size: 13px 19px;
+}
+.hotkeyword {
+    margin: 6px 0 0;
+    _margin-top: 1px;
+    *margin-top: 1px;
+    color: #A5A5A5;
+    overflow: hidden;
+    line-height: 14px;
+    height: 14px;
+    _height: 16px;
+    *height: 16px;
+    font-size: 12px;
+}
+.hotkeyword a.highlight, .hotkeyword a:hover {
+    color: #f5004b;
+    text-decoration: none;
+}
+.hotkeyword a {
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 14px;
+    color: #A5A5A5;
+    font-family: 'microsoft yahei';
+}
+.mygome-side {
+    position: absolute;
+    right: 0;
+    top: 32px;
+    z-index: 92;
+    width: 240px;
+}
+.topmenu {
+    float: right;
+    display: inline;
+    z-index: 96;
+    _z-index: 96;
+    *z-index: 96;
+}
+.topmenu {
+    position: relative;
+    font-size: 12px;
+}
+.topmenu li {
+    float: left;
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+}
+.shopcartbox .cartlinkbox {
+    display: inline-block;
+}
+.shopcartbox .cartlink {
+    padding: 5px 20px 0 45px;
+    line-height: 34px;
+    height: 34px;
+    width: 75px;
+}
+.cartlinkbox .menulink {
+    border: none;
+    margin: 1px;
+}
+.i-cart {
+    position: absolute;
+    width: 27px;
+    height: 20px;
+    background: url(../img/ui.png) -100px -701px;
+    top: 11px;
+    left: 10px;
+}
+.shopnum {
+    position: absolute;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 3px;
+    top: -18px;
+    min-width: 14px;
+    _width: 14px;
+    text-align: center;
+    left: 15px;
+    background-color: #A5A5A5;
+    color: #FFF;
+    font-weight: 700;
+}
+.shopnum {
+    position: absolute;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 3px;
+    top: -18px;
+    min-width: 14px;
+    _width: 14px;
+    text-align: center;
+    left: 15px;
+    background-color: #A5A5A5;
+    color: #FFF;
+    font-weight: 700;
+}
+.shopnum i {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 4px dashed transparent;
+    border-color: transparent transparent transparent #A5A5A5;
+    border-right: 0;
+    border-left-style: solid;
+    overflow: hidden;
+    bottom: -4px;
+    left: 5px;
+}
+.shopcartbox .cartlink {
+    padding: 5px 20px 0 45px;
+    line-height: 34px;
+    height: 34px;
+    width: 75px;
+}
+.cartlinkbox .menulink b {
+    top: 15px;
+}
+.menulink b {
+    z-index: 96;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 4px dashed transparent;
+    border-color: #5E5E5E transparent transparent;
+    border-bottom: 0;
+    border-top-style: solid;
+    top: 10px;
+    right: 10px;
+    overflow: hidden;
+}
+.home b {
+    font-weight: 400;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 arial,"\65b0\5b8b\4f53";
+}
+.shopcartbox .menuhide {
+    width: 280px;
+    top: 34px;
+    right: 0;
+    padding: 0;
+    z-index: -1;
+}
+.menuhide {
+    position: absolute;
+    background: #fff;
+    /* border: 1px solid #DDD\9; */
+    top: 27px;
+    _top: 25px;
+    right: 0;
+    box-shadow: 0 0 18px rgba(0,0,0,.09);
+}
+.noshop {
+    text-align: center;
+    line-height: 100px;
+    color: #A5A5A5;
+    display: none;
+}
+.topmenu a {
+    color: #5E5E5E;
+}
+.home .category, .home .category-box {
+    height: 40px;
+}
+.category-box {
+    height: 38px;
+    border-bottom: 1px solid #dd00a7;
+    background: #f8f8f8;
+}
+.wbox {
+    width: 1200px;
+    margin: 0 auto;
+}
+.sidecategory {
+    position: relative;
+    z-index: 995;
+    float: left;
+}
+.home .sidecategory h2 {
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+.sidecategory h2 {
+    width: 200px;
+    height: 38px;
+    background: #f1f1f1;
+    float: left;
+    opacity: .9;
+    filter: Alpha(opacity=90);
+}
+.sidecategory h2 a {
+    color: #585858;
+    font-family: 'Microsoft YaHei';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 15px;
+    float: left;
+}
+.home .sidecategory h2 a {
+    line-height: 40px;
+}
+.home .sidecategory .lisnav {
+    top: 41px;
+    z-index: 200;
+}
+.mainnav {
+    float: left;
+    height: 38px;
+    width: 800px;
+    overflow: hidden;
+    position: relative;
+}
+.mainnav li {
+    position: relative;
+    float: left;
+    padding: 0 13px;
+    text-align: center;
+    line-height: 38px;
+    white-space: nowrap;
+}
+.mainnav li.cur a, .mainnav li a:hover {
+    color: #f5004b;
+}
+.mainnav li a {
+    color: #000;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'Microsoft YaHei';
+}
+.tag_line {
+    position: absolute;
+    right: 0;
+    top: 14px;
+    width: 1px;
+    background-color: #b2b2b2;
+    height: 13px;
+}
+.hdrsideRoll {
+    float: right;
+    position: relative;
+    width: 194px;
+    height: 38px;
+    overflow: hidden;
+}
+.adnavside {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 170px;
+    height: 38px;
+    overflow: hidden;
+}
+.hd-clickscroll {
+    width: 3000px;
+    position: absolute;
+    top: 0;
+}
+.hd-clickscroll li {
+    float: left;
+    display: inline;
+    width: 170px;
+    height: 38px;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+.hdrsRollbtn a {
+    padding: 2px 1px;
+    display: block;
+    margin: 1px;
+}
+.j-hdrbtn-up i {
+    background: url(../img/ui.png) -20px -1348px;
+    width: 9px;
+    height: 5px;
+    display: block;
+}
+.hdrsRollbtn a.j-hdrbtn-down {
+    margin-top: 4px;
+}
+.j-hdrbtn-down i {
+    background: url(../img/ui.png) -20px -1353px;
+    width: 9px;
+    height: 5px;
+    display: block;
+}
+.hdrsRollbtn {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    width: 13px;
+    height: 20px;
+}
+.gm_main {
+    position: relative;
+    min-width: 1200px;
+    height: 450px;
+    background: #000;
+}
+.gm_feature, .gm_feature .f_extra_l, .gm_feature .f_extra_r {
+    height: 481px;
+}
+.gm_feature {
+    width: 100%;
+    overflow: hidden;
+}
+.wbox {
+    width: 1200px;
+    margin: 0 auto;
+}
+.gm_feature .f_m_c, .gm_feature .f_m_l {
+    width: 420px;
+    float: left;
+    margin-right: 10px;
+    height: 481px;
+    /* box-sizing: border-box; */
+}
+.gm_feature .f_m_r {
+    width: 340px;
+    float: right;
+}
+.home .gm_title {
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+}
+.gm_feature .gm_title {
+    position: relative;
+}
 
-
+.home .gm_title h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 28px;
+    _margin-top: 29px;
+    font-weight: 400;
+    float: left;
+}
+.home .gm_feature .gm_title h2 {
+    background: url(../img/jlt.png) no-repeat;
+    /* _background: url(//app.gomein.net.cn/gmpro/2.0.0/channel/newindex/8.5.6/css/i/uiIE6.png) no-repeat; */
+    width: 70px;
+    text-indent: -200px;
+}
+.home .f_m_l .gm_title h2 {
+    background-position: -169px -100px;
+}
+.home .gm_title span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #ccc;
+    padding: 27px 0 0 9px;
+    font-family: Arial;
+}
+.gm_feature .f_inner {
+    border: 1px solid #e6e6e6;
+    width: 418px;
+    height: 419px;
+    background: #fff;
+    overflow: hidden;
+    padding-left: 1px;
+}
+.gm_feature a {
+    display: block;
+    float: left;
+}
+.gm_feature .special {
+    display: block;
+    width: 218px;
+    height: 419px;
+}
+.gm_feature .line_dash {
+    border-bottom: 1px dashed #eee;
+}
+.gm_feature .img_w199 {
+    display: block;
+    width: 199px;
+    height: 209px;
+}
+.home .f_m_c .gm_title h2 {
+    background-position: -169px -132px;
+}
+.home .gm_title span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #ccc;
+    padding: 27px 0 0 9px;
+    font-family: Arial;
+}
+.gm_feature .gm_title {
+    position: relative;
+}
+.home .f_m_r .gm_title h2 {
+    background-position: -169px -164px;
+}
+.home .gm_title span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #ccc;
+    padding: 27px 0 0 9px;
+    font-family: Arial;
+}
+.gm_feature .f_m_r .f_inner {
+    width: 338px;
+}
+.gm_feature .f_inner_l {
+    width: 219px;
+    float: left;
+    /* border-left: 1px solid #eee; */
+}
+.gm_feature .line_dash {
+    border-bottom: 1px dashed #eee;
+}
+.gm_feature .f_inner_l img {
+    display: block;
+    width: 219px;
+    height: 209px;
+}
+.gm_feature .f_brands .f_b_inner {
+    border-left: 1px solid #eee;
+    height: 419px;
+}
+.gm_feature .f_brands a {
+    display: block;
+    height: 59px;
+    width: 118px;
+    text-align: center;
+    border-bottom: 1px #eee dashed;
+    opacity: .9;
+    filter: Alpha(opacity=90);
+}
+.gm_feature .f_brands a img {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+}
+.gm_feature .f_brands .f_b_inner {
+    border-left: 1px solid #eee;
+    height: 419px;
+}
+.gm_feature .f_brands {
+    width: 119px;
+    float: right;
+}
+.quan_out {
+    margin-top: 20px;
+    height:110px;
+}
+.area ul li, .gm_kuaixun4 .round_tittle .tittle_up span, .index_fl {
+    float: left;
+}
+.quan_out .quan_list {
+    width: 208px;
+    height: 110px;
+    overflow: hidden;
+}
+.quan_out .num1 a, .quan_out .num2 a, .quan_out .num3 a, .quan_out .num4 a {
+    border-right: 1px dashed #ddd;
+    display: inline-block;
+    width: 207px;
+    height: 110px;
+    overflow: hidden;
+}
+.quan_out .quan_list img {
+    margin-left: -1px;
+}
+.quan_r {
+    width: 38px;
+}
+.index_fr {
+    float: right;
+}
+/* 猜你喜欢 */
+.home .gm_title {
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+}
+.home .gm_title h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 28px;
+    _margin-top: 29px;
+    font-weight: 400;
+    float: left;
+}
+.home .gm_title span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #ccc;
+    padding: 27px 0 0 9px;
+    font-family: Arial;
+}
+.gm_title .change_btn {
+    float: right;
+    width: 54px;
+    height: 60px;
+    overflow: hidden;
+    _width: 60px;
+}
+.gm_title .pre {
+    /* _background: url(//app.gomein.net.cn/gmpro/2.0.0/channel/newindex/8.5.6/css/i/uiIE6.png) -126px -104px no-repeat; */
+    background: url(../img/jlt.png) -126px -104px no-repeat;
+}
+.gm_title .nex, .gm_title .pre {
+    width: 23px;
+    height: 23px;
+    display: block;
+    margin-top: 30px;
+    float: left;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.gm_title .nex {
+    /* _background: url(//app.gomein.net.cn/gmpro/2.0.0/channel/newindex/8.5.6/css/i/uiIE6.png) -126px -182px no-repeat; */
+    background: url(../img/jlt.png) -126px -182px no-repeat;
+}
+.guess_main {
+    width: 1198px;
+    height: 264px;
+    border: 1px solid #eee;
+    position: relative;
+}
+.guess_main, .w1000 .gm_finance .f_m_r ul a {
+    width: 193px;
+    overflow: hidden;
+}
+.guess_main ul {
+    width: 1200px;
+    height: 264px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.guess_main ul li {
+    width: 200px;
+    height: 224px;
+    margin-top: 20px;
+    float: left;
+}
+.guess_main ul li a {
+    display: block;
+    width: 199px;
+    height: 210px;
+    border-right: 1px dashed #eee;
+    padding-top: 15px;
+}
+.guess_main ul li a img {
+    display: block;
+    margin-left: 40px;
+    width: 120px;
+    height: 120px;
+}
+.guess_main ul li a .guess_title {
+    width: 167px;
+    height: 36px;
+    overflow: hidden;
+    margin: 32px 0 0 20px;
+    color: #5e5e5e;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+}
+.guess_main ul li a .guess_price {
+    color: #ff0027;
+    line-height: 16px;
+    height: 16px;
+    margin: 8px 0 0 20px;
+    font-size: 16px;
+    font-family: "Arial "\9;
+    font-family: Arial,"Microsoft Yahei";
+}
+.guess_main {
+    width: 1198px;
+    height: 264px;
+    border: 1px solid #eee;
+    position: relative;
+}
+.hotlist {
+    height: 400px;
+}
+.hotlist .hot_l {
+    width: 830px;
+    float: left;
+}
+.hotlist .hot_r {
+    width: 361px;
+    height: 400px;
+    float: right;
+    overflow: hidden;
+}
+.home .gm_title {
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+}
+.home .gm_title h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 28px;
+    _margin-top: 29px;
+    font-weight: 400;
+    float: left;
+}
+.home .gm_title span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #ccc;
+    padding: 27px 0 0 9px;
+    font-family: Arial;
+}
+.hotlist .hot_more {
+    padding-top: 33px;
+    color: #5e5e5e;
+}
+.index_fr {
+    float: right;
+}
+.home b {
+    font-weight: 400;
+}
+.hotlist .hot_more b.arrow {
+    width: 10px;
+    height: 14px;
+    display: inline-block;
+    background: url(../img/jlt.png) no-repeat -123px -124px;
+    /* _background: url(//app.gomein.net.cn/gmpro/2.0.0/channel/newindex/8.5.6/css/i/uiIE6.png) no-repeat -123px -126px; */
+    margin-left: 3px;
+}
+.hotlist .hot_more {
+    padding-top: 33px;
+    color: #5e5e5e;
+}
+.hotlist .hot_m {
+    border: 1px solid #eee;
+    *position: relative;
+    width: 828px;
+}
+.hotlist .hot_m, .hotlist .star {
+    height: 338px;
+    overflow: hidden;
+    float: left;
+}
+.hotlist .star {
+    width: 281px;
+}
+.hotlist .hot_m, .hotlist .star {
+    height: 338px;
+    overflow: hidden;
+    float: left;
+}
+.hotlist .hot_list {
+    width: 547px;
+    float: left;
+}
+.hotlist .star a {
+    display: block;
+    width: 280px;
+    height: 338px;
+    border-right: 1px solid #eee;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.hotlist .star a span {
+    display: block;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+    background: url(../img/jlt.png) no-repeat -52px 0;
+    /* _background: url(//app.gomein.net.cn/gmpro/2.0.0/channel/newindex/8.5.6/css/i/uiIE6.png) no-repeat -52px 0; */
+}
+.hotlist .star a img {
+    margin: 30px 0 29px;
+}
+.hotlist .star p {
+    margin-left: 20px;
+    line-height: 24px;
+    font-size: 16px;
+    width: 240px;
+    height: 24px;
+    overflow: hidden;
+}
+.hotlist .star_name {
+    color: #404040;
+}
+.hotlist .star p {
+    margin-left: 20px;
+    line-height: 24px;
+    font-size: 16px;
+    width: 240px;
+    height: 24px;
+    overflow: hidden;
+}
+.hotlist .star_price {
+    color: #ff0027;
+    font-family: "Arial "\9;
+    font-family: Arial,"Microsoft Yahei";
+}
+.hotlist .star_price b {
+    font-weight: 400;
+}
+.hotlist .hot_list ul {
+    width: 548px;
+    height: 338px;
+    _width: 547px;
+}
+.hotlist .hot_list li {
+    width: 274px;
+    _width: 272px;
+    height: 170px;
+    float: left;
+}
+.hotlist .hot_list ul a {
+    display: block;
+    width: 274px;
+    _width: 272px;
+    height: 168px;
+    border-right: 1px dashed #eee;
+    border-bottom: 1px dashed #eee;
+    position: relative;
+    overflow: hidden;
+}
+.hotlist .hot_list img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 25px 10px 0;
+}
+.hotlist .hot_name {
+    font-size: 13px;
+    line-height: 20px;
+    color: #5e5e5e;
+    height: 40px;
+    width: 120px;
+    overflow: hidden;
+    padding-top: 29px;
+}
+.hotlist .hot_price {
+    line-height: 14px;
+    overflow: hidden;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ff0027;
+    height: 14px;
+    width: 120px;
+}
+.hot_list a b {
+    display: block;
+    width: 70px;
+    height: 77px;
+    position: absolute;
+    right: -5px;
+    top: 39px;
+    font-size: 125px;
+    color: #f9f7f5;
+    font-style: italic;
+}
