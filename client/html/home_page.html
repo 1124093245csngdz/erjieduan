@@ -8,9 +8,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/home_page.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/home_picdata.js"></script>
+    <script src="../js/home_page.js"></script>
+    <script src="../js/选项卡数据/data.js"></script>
+    <script src="../js/选项卡数据/datas.js"></script>
+    <script src="../js/home_tab.js"></script>
 </head>
 
 <body class="home">
+
     <div id="gome">
         <div class="gome-top">
             <div id="gome-top-body" class="content">
@@ -119,7 +127,7 @@
                         <a href="">全部商品分类</a>
                     </h2>
                     <div id="navBox" class="lisnav">
-                        动态菜单
+                        <div class="lisbg"></div>
                     </div>
                 </div>
                 <ul class="mainnav">
@@ -153,7 +161,92 @@
             </div>
         </div>
         <div id="gm_main" class="gm_main">
-            轮播图
+            <div class="gm_sever_wrap" id="gm_sever_wrap">
+                <div class="gm_sever_bg"></div>
+                <div class="gm_sever gm_kuaixun4">
+                    <div class="gm_kuaixun edit-mode">
+                        <div class="gome_news">
+                            <h2 class="gome_news_title">快讯</h2>
+                            <a href="">更多<span></span></a>
+                        </div>
+                        <div class="gome_news_content">
+                            <span>
+                                <a href="" class="gome_news_sort edit-mode">特惠</a>
+                                <a href="" class="gome_news_text  edit-mode">海尔6.5kg波轮洗衣机759元</a>
+                            </span>
+                            <span>
+                                <a href="" class="gome_news_sort edit-mode">特惠</a>
+                                <a href="" class="gome_news_text red edit-mode">手机以旧换新额外补贴高至300元</a>
+                            </span>
+                            <span>
+                                <a href="" class="gome_news_sort edit-mode">特惠</a>
+                                <a href="" class="gome_news_text  edit-mode">约惠冬季 电脑显示屏仅899元</a>
+                            </span>
+                            <span>
+                                <a href="" class="gome_news_sort edit-mode">特惠</a>
+                                <a href="" class="gome_news_text  edit-mode">电视低价继续 100元优惠券免费领</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="icon_server_box edit-mode">
+                        <div class="icon_box" id="icon_box">
+                            <ul class="icon_server">
+                                <li class="icon_server_li_bottom edit-mode">
+                                    <a href="" class="icon_server_a">
+                                        <i class="gm-icon icon-qiaquan"></i>
+                                        <i class="icon_server_li_titile">充话费</i>
+                                        <i class="icon_server_li_triangle"></i>
+                                    </a>
+                                </li>
+                                <li class="icon_server_li_bottom edit-mode">
+                                    <a href="" class="icon_server_a">
+                                        <i class="gm-icon icon-qiaquan"></i>
+                                        <i class="icon_server_li_titile">充流量</i>
+                                        <i class="icon_server_li_triangle"></i>
+                                    </a>
+                                </li>
+                                <li class="edit-mode">
+                                    <a href="" class="icon_server_a">
+                                        <i class="gm-icon icon-qiaquan"></i>
+                                        <i class="icon_server_li_titile">领券</i>
+                                    </a>
+                                </li>
+                                <li class="edit-mode">
+                                    <a href="" class="icon_server_a">
+                                        <i class="gm-icon icon-qiaquan"></i>
+                                        <i class="icon_server_li_titile">会员</i>
+                                    </a>
+                                </li>
+                                <li class="edit-mode">
+                                    <a href="" class="icon_server_a">
+                                        <i class="gm-icon icon-qiaquan"></i>
+                                        <i class="icon_server_li_titile">帮助</i>
+                                    </a>
+                                </li>
+                                <li class="edit-mode">
+                                    <a href="" class="icon_server_a">
+                                        <i class="gm-icon icon-qiaquan"></i>
+                                        <i class="icon_server_li_titile">找服务</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="round edit-mode">
+                        <a href="" class="round_out clearfix">
+                            <img src="//gfs12.gomein.net.cn/T1vVhCBTLT1RCvBVdK.jpg" alt="">
+                            <div class="round_tittle">
+                                <p class="tittle_up">
+                                    <span>[</span>
+                                    <span class="txt">购节能家电</span>
+                                    <span>]</span>
+                                </p>
+                                <p class="tittle_down">享低碳生活</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="gm_feature edit-mode">
             <div class="f_m wbox">
@@ -402,9 +495,267 @@
                     </div>
                 </div>
             </div>
-            <div class="hot_r edit-mode"></div>
+            <div class="hot_r edit-mode">
+                <div class="gm_title edit-mode">
+                    <h2>家电服务</h2><span>SERVICE</span>
+                    <div class="hot_word index_fr edit-mode">
+                        <a href="" class="num1">家电清洗</a>/
+                        <a href="" class="num12">手机维修</a>
+                    </div>
+                </div>
+                <div class="Housekeeper">
+                    <ul>
+                        <li class="lists lists_1">
+                            <a href="" class="clearfix out">
+                                <div class="index_fl index_pr goods">
+                                    <img src="//img11.gomein.net.cn/image/prodimg/promimg/topics/201711/201711091729040141.png"
+                                        alt="" class="img lazyloading edit-mode">
+                                    <div class="house_ser index_pabs edit-mode">
+                                        <div class="lang">
+                                            <span class="point">上门服务</span>
+                                        </div>
+                                        <div class="lang">
+                                            <span class="point">深度清洁</span>
+                                        </div>
+                                        <div class="lang">
+                                            <span class="point">杀菌率高</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="index_fl right">
+                                    <div class="tittle">油烟机免拆清洗</div>
+                                    <div class="price_out price">
+                                        <span>￥</span><span class="price minPrice">158.00</span>
+                                        起
+                                    </div>
+                                    <div class="des edit-mode">
+                                        <span>随时预约，快速响应</span><span>上门服务，安全更便捷</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="lists lists_2">
+                            <a href="" class="clearfix out">
+                                <div class="index_fl index_pr goods">
+                                    <img src="//gfs13.gomein.net.cn/T1kEKvByK_1RCvBVdK.png" alt=""
+                                        class="img lazyloading edit-mode">
+                                    <div class="house_ser index_pabs edit-mode">
+                                        <div class="lang">
+                                            <span class="point">上门服务</span>
+                                        </div>
+                                        <div class="lang">
+                                            <span class="point">原厂品质</span>
+                                        </div>
+                                        <div class="lang">
+                                            <span class="point">安全高效</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="index_fl right">
+                                    <div class="tittle">iphone6更换电池
+                                    </div>
+                                    <div class="price_out price">
+                                        <span>￥</span><span class="price minPrice">129.00</span>
+                                        起
+                                    </div>
+                                    <div class="des edit-mode">
+                                        <span>随时预约，快速响应</span><span>上门服务，安全更便捷</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="gome-help">
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="icon-pz"></i>
+                        品质
+                    </a>
+                    <span class="foot-titlt-dot"></span>
+                    <a href="" class="sec-title">正品行货 购物无忧</a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon-pz"></i>
+                        底价
+                    </a>
+                    <span class="foot-titlt-dot"></span>
+                    <a href="" class="sec-title">普惠实价 帮你省钱</a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon-pz"></i>
+                        速达
+                    </a>
+                    <span class="foot-titlt-dot"></span>
+                    <a href="" class="sec-title">专业配送 按时按需</a>
+                </li>
+            </ul>
+            <div class="gome-help-box">
+                <dl>
+                    <dt>物流配送</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="">配送查询</a></li>
+                            <li><a href="">配送服务</a></li>
+                            <li><a href="">配送费用</a></li>
+                            <li><a href="">配送时效</a></li>
+                            <li><a href="">签收与验货</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>支付与账户</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="">货到付款</a></li>
+                            <li><a href="">在线支付</a></li>
+                            <li><a href="">分期付款</a></li>
+                            <li><a href="">门店支付</a></li>
+                            <li><a href="">发票制度</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="">退换货服务</a></li>
+                            <li><a href="">退款说明</a></li>
+                            <li><a href="">专业维修</a></li>
+                            <li><a href="">延保服务</a></li>
+                            <li><a href="">家电回收</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>会员专区</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="">会员说明</a></li>
+                            <li><a href="">优惠券说明</a></li>
+                            <li><a href="">美豆说明</a></li>
+                            <li><a href="">商品评价</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>购物帮助</dt>
+                    <dd>
+                        <ul>
+                            <li><a href="">购物服务</a></li>
+                            <li><a href="">购物流程</a></li>
+                            <li><a href="">促销优惠</a></li>
+                            <li><a href="">焦点问题</a></li>
+                            <li><a href="">联系我们</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div id="gome-foot">
+            <div id="gome-foot-box">
+                <span class="clearfix ">
+                    <i></i>
+                    <p>
+                        <strong>门店服务</strong>
+                        <a href="">国美门店全国共计2000余家</a>
+                    </p>
+                </span>
+                <span class="clearfix ued">
+                    <i></i>
+                    <p>
+                        <strong>用户体验</strong>
+                        <a href="">参与用户体验改进计划</a><a href="">用户反馈</a>
+                    </p>
+                </span>
+                <div class="qrcode-section">
+                    <em class="code-sm wx"><i></i>
+                        <p>公众号</p>
+                    </em>
+                    <em class="code-sm wap"><i></i>
+                        <p>手机站点</p>
+                    </em>
+                    <em class="code-bg app">
+                        <i><a href=""><img src="//gfs11.gomein.net.cn/T1uZdyBXCT1RCvBVdK.jpg" alt=""></a></i>
+                        <p>扫描客户端下载</p>
+                    </em>
+                </div>
+                <ul>
+                    <li><a href="">国美控股集团</a></li>
+                    <li><a href="">国美管家</a></li>
+                    <li><a href="">关于国美</a></li>
+                    <li><a href="">加入我们</a></li>
+                    <li>|</li>
+                    <li><a href="">品牌大全</a></li>
+                    <li><a href="">商品专题</a></li>
+                    <li><a href="">商品词</a></li>
+                    <li><a href="">热词搜索</a></li>
+                    <li><a href="">友情链接</a></li>
+                    <li><a href="">风险监测</a></li>
+                    <li>|</li>
+                    <li><a href="">销售联盟</a></li>
+                    <li><a href="">商家入驻</a></li>
+                    <li><a href="">国美分销</a></li>
+                </ul>
+                <p>
+                    本公司游戏产品适合18岁以上成年人使用&nbsp;&nbsp;违法和不良信息举报电话：021-39900132&nbsp;&nbsp;
+                    <a href="" class="interDrug">互联网药品信息服务资格证编号（沪）-经营性-2019-0006</a>
+                </p>
+                <p>
+                    网络食品销售第三方平台提供者备案：沪网食备A0015号&nbsp;&nbsp;
+                    <a href="" class="interDrug">网络文化经营许可证沪网文[2017]5537-436号</a>&nbsp;&nbsp;
+                    <a href="" class="interDrug">增值电信业务经营许可证</a>
+                </p>
+                <p>
+                    客服电话:4008113333&nbsp;&nbsp;
+                    <a href="" class="interDrug">沪ICP备11009419号/京ICP备 19011786号</a>&nbsp;&nbsp;
+                    <a href="" class="interDrug">京B2-20191290</a>&nbsp;&nbsp;
+                    <a href="" class="interDrug">经营执照</a>&nbsp;&nbsp;
+                    <a href="" class="interDrug">营业执照</a>&nbsp;&nbsp;
+                    <a href="" class="interDrug">出版物经营许可证</a>
+                </p>
+                <p>
+                    ©2000-2019&nbsp;&nbsp;国美在线电子商务有限公司版权所有&nbsp;&nbsp;
+                    <a href="" class="interDrug tw-w-ico-wrap">
+                        <i class="tw-w-mark-icon"></i>
+                        京公网安备 11010502038379号
+                    </a>
+                </p>
+                <div class="gome-foot-credit">
+                    <a href="" class="credit-baxx">
+                        <i></i>
+                        <b>经营性网站备案信息</b>
+                    </a>
+                    <a href="" class="credit-xypj">
+                        <i></i>
+                        <b>可信网站信用评价</b>
+                    </a>
+                    <a href="" class="credit-cxwz">
+                        <i></i>
+                        <b>诚信网站</b>
+                    </a>
+                    <a href="" class="credit-hdjc">
+                        <i></i>
+                        <b>朝阳网络警察</b>
+                    </a>
+                    <a href="" class="credit-wgdj">
+                        <i></i>
+                        <b>网购大家评</b>
+                    </a>
+                    <a href="" class="credit-report">
+                        <i></i>
+                        <b>上海市互联网违法和不良信息举报中心</b>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
+
 </body>
 
 </html>
