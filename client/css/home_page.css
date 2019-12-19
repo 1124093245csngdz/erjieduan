@@ -1760,7 +1760,6 @@ img {
 /* 楼层效果 */
 .lazy-fn-wrap{
     min-height: 300px;
-    background: #000;
 }
 /* 选项卡 */
 .sidecategory .lisbg {
@@ -1986,4 +1985,270 @@ img {
 }
 body div .redcolo{
     color:red;
+}
+.floor {
+    min-height: 480px;
+    _height: 480px;
+    _overflow: visible;
+}
+.lazy-fn-wrap .floor {
+    position: relative;
+}
+.floor .mt {
+    height: 38px;
+    padding-top: 32px;
+    border-bottom: 1px solid #719ef7;
+}
+.floor .mtTop {
+    width: 210px;
+    height: 38px;
+    overflow: hidden;
+    float: left;
+    line-height: 38px;
+    font-size: 20px;
+}
+.floor .h2_text {
+    float: left;
+    padding-right: 6px;
+}
+.floor .mtTop {
+    width: 210px;
+    height: 38px;
+    overflow: hidden;
+    float: left;
+    line-height: 38px;
+    font-size: 20px;
+}
+.floor .tab {
+    float: right;
+    margin-top: 8px;
+    max-width: 790px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.floor .tab li {
+    float: left;
+}
+.floor .tab li.cur a {
+    color: #fff;
+    background: rgb(113, 158, 247);
+}
+.floor .tab a {
+    font-size: 14px;
+    color: #5e5e5e;
+    padding: 0 15px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    _white-space: nowrap;
+}
+.floor .mc_l_img {
+    display: block;
+    background: #fff;
+}
+.floor .mc_l img {
+    margin-left: -10px;
+    display: block;
+    width: 220px;
+    height: 278px;
+}
+.floor .mc {
+    height: 470px;
+}
+.floor .mc_l {
+    height: 470px;
+    width: 210px;
+    float: left;
+    position: relative;
+    background: #719ef7;
+}
+.floor .keyAll {
+    height: auto;
+    width: 210px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.floor .channelbg {
+    max-height: 98px;
+    width: 220px;
+    position: absolute;
+    left: -10px;
+    bottom: 160px;
+    background: #fff;
+    overflow: hidden;
+}
+.floor .channel {
+    width: 210px;
+    margin-left: 10px;
+    min-height: 32px;
+    background: #6294f6;
+}
+.floor .channel_inner {
+    width: 180px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.floor .channel_inner {
+    width: 180px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.floor .channel a {
+    height: 23px;
+    height: 24px\9;
+    *height: 25px;
+    margin-right: 5px;
+}
+.floor .channel a, .floor .channel span {
+    display: inline-block;
+    font-size: 14px;
+    color: #f0f0f0;
+    float: left;
+}
+.floor .channel li {
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    *height: 30px;
+    *line-height: 34px;
+    *margin-top: -2px;
+    overflow: hidden;
+}
+.floor .keywords {
+    height: 160px;
+    width: 210px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.floor .keywords .w55 {
+    height: 137px;
+    width: 50px;
+    float: left;
+    overflow: hidden;
+    margin: 8px 0 15px 15px;
+}
+.floor .keywords li {
+    height: 28px;
+    line-height: 28px;
+    *height: 26px;
+    *line-height: 28px;
+    *margin-top: -2px;
+    overflow: hidden;
+}
+.floor .keywords li a {
+    display: inline-block;
+    color: #f0f0f0;
+    height: 20px;
+    *height: 22px;
+    font-size: 12px;
+}
+.floor .keywords .w43, .floor .keywords .w62 {
+    height: 137px;
+    width: 37px;
+    float: left;
+    overflow: hidden;
+    margin: 8px 0 15px 10px;
+}
+.floor .keywords .w62 {
+    width: 73px;
+    margin: 8px 15px 15px 10px;
+}
+.floor .main_warp {
+    width: 990px;
+    height: 470px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.floor .main {
+    width: 990px;
+    height: 470px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    /* display: none; */
+}
+.floor .mc_c, .floor .mc_c .slider {
+    position: relative;
+}
+.floor .mc_c {
+    height: 470px;
+    width: 389px;
+    float: left;
+    overflow: hidden;
+}
+.floor .mc_c .slider li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 470px;
+    width: 389px;
+    background: #fff;
+    display: none;
+}
+.floor .mc_r {
+    width: 601px;
+    height: 470px;
+    float: left;
+    overflow: hidden;
+}
+.floor .mc_r .mc_r_inner {
+    width: 600px;
+    height: 470px;
+    border-left: 1px solid #eee;
+}
+.floor .mc_r ul li {
+    width: 200px;
+    height: 235px;
+    float: left;
+}
+.floor .mc_r ul li a {
+    display: block;
+    width: 199px;
+    height: 234px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.floor .mc_c ul .chuxian{
+    display: block;
+}
+.floor .main {
+    width: 990px;
+    height: 470px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    display: none;
+}
+.floor .main_inner li {
+    width: 198px;
+    height: 235px;
+    float: left;
+    overflow: hidden;
+}
+.floor .main_inner li a {
+    width: 197px;
+    height: 234px;
+    display: block;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+.floor .main_inner li img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 20px 0 15px 34px;
+    *margin-bottom: 9px;
+}
+.floor .ccccc{
+    display: block;
 }

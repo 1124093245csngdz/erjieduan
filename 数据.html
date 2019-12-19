@@ -24,11 +24,96 @@
         // })
         // JSON.stringify(arr);
 
+        // var arr = []
+        // var oDiv = $('.focus_box > li');
+        // $(oDiv).toArray().forEach(function (param) {
+        //     var res = {};
+        //     res.src = $(param).find('.lazyloading')[0].src;
+        //     arr.push(res);
+        // })
+        // JSON.stringify(arr);
+
+        var odiv = $('.temp0');;
         var arr = []
-        var oDiv = $('.focus_box > li');
-        $(oDiv).toArray().forEach(function (param) {
+        $(odiv).toArray().forEach(function (param) {
             var res = {};
-            res.src = $(param).find('.lazyloading')[0].src;
+            res.louceng = $(param).find('.mtTop')[0].innerText;
+            // //li
+            var arr1 = [];
+            var ul = $(param).find('.tab').children();
+            $(ul).toArray().forEach(function (param) {
+                arr1.push(param.innerText);
+            })
+            res.tab = arr1;
+
+            //img
+            var imgl = $(param).find('.mc_l_img').children();
+            $(imgl).toArray().forEach(function (param) {
+                res.src1 = param.src;
+            })
+            //list 
+            var arr2 = [];
+            var a = $(param).find('.channel_inner').find('a');
+            $(a).toArray().forEach(function (param) {
+                arr2.push(param.innerText);
+
+            })
+            res.a1 = arr2;
+            //ul1
+            var ul2 = [];
+            var ul1 = $(param).find('.keywords ').find('.w55').find('a');
+            $(ul1).toArray().forEach(function (param) {
+                // ul1.push($(param).children().eq(0).innerText);
+                ul2.push(param.innerText);
+                // console.log(param.innerText);
+
+            })
+            res.ul1 = ul2;
+            //ul2
+            var ul3 = [];
+            var ulA = $(param).find('.keywords ').find('.w43').find('a');
+            $(ulA).toArray().forEach(function (param) {
+                // ul1.push($(param).children().eq(0).innerText);
+                ul3.push(param.innerText);
+            })
+            res.ul2 = ul3;
+            //ul3
+            var ul4 = [];
+            var ulB = $(param).find('.keywords ').find('.w62').find('a');
+            $(ulB).toArray().forEach(function (param) {
+                // ul1.push($(param).children().eq(0).innerText);
+                ul4.push(param.innerText);
+            })
+            res.ul3 = ul4;
+            //cen img
+            var centarr = [];
+            var centimg = $(param).find('.slider').find('img');
+            $(centimg).toArray().forEach(function (param) {
+                centarr.push(param.src);
+            })
+            res.centsrc = centarr;
+            //rig pic
+            var tigpicarr = [];
+            var rigpic = $(param).find('.mc_r_inner').children().find('img');
+            $(rigpic).toArray().forEach(function (param) {
+                tigpicarr.push(param.src);
+            })
+            res.rigpic = tigpicarr;
+            // pic img
+            var listpic = [];
+            var datupian = $(param).find('.main').eq(0).siblings().find('.main_inner');
+            $(datupian).toArray().forEach(function (param) {
+                var listres = {};
+                var listarr = [];
+                $(param).find('li').toArray().forEach(function (param) {
+                    listarr.push($(param).find('img')[0].src);
+                })
+                listres.listarr = listarr;
+                listpic.push(listres);
+                // console.log(listarr, listres);
+            })
+            res.listpic = listpic;
+            //
             arr.push(res);
         })
         JSON.stringify(arr);
