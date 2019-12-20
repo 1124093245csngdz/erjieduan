@@ -83,4 +83,16 @@ $(() => {
             $(this).addClass('cur').siblings().removeClass('cur');
         })
     }
+    //跳转详情页
+    $('.oDiv_ul').on('click', 'li', function (param) {
+        var src = $(this).find('img')[0].src;
+        var title = $(this).find('.price')[0].innerText;
+        var price = $(this).find('.item-link')[0].innerText;
+        var pinglun = $(this).find('.comment')[0].innerText;
+        var name = $(this).find('.nname')[0].innerText;
+
+        var zfc = `src=${src}&name=${name}&price=${price}&title=${title}&pinglun=${pinglun}`;
+        // console.log(zfc);
+        window.location.href = 'http://127.0.0.1/index/guomei/erjieduan/client/html/Details_page.html?' + zfc;
+    })
 })
