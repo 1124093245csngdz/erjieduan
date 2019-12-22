@@ -9,10 +9,13 @@ $(() => {
             data: { username, password },
             dataType: "json",
             success: function (response) {
-                console.log(response);
+                // console.log(response);
                 // {status:"ok",data:{msg:"登录成功"}}
                 if (response.status == "success") {
-                    window.location.href = "https://www.baidu.com/";
+                    localStorage.username = username;
+                    localStorage.password = password;
+                    localStorage.userId = response.data.userId
+                    window.location.href = "http://127.0.0.1/index/guomei/erjieduan/client/html/home_page.html";
                 } else {
                     alert(response.data.msg);
                 }

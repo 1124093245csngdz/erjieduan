@@ -19,6 +19,7 @@
         # (2-2) 如果用户名存在，接着检查密码
         // $sql2 = "SELECT * FROM `infos` WHERE `account`='$username'";
         $data = $result->fetch_all(MYSQLI_ASSOC);
+        
         $paw = $data[0]['password'];
         if($password !=  $paw)
         {
@@ -28,8 +29,11 @@
         }else
         {
           # (2-2-2) 密码正确，那么就返回数据(登录成功)
+          $userId = $data[0]["id"];
           $data["status"] = "success";
           $data["data"]["msg"] = "恭喜你，登录成功";
+          $data["data"]["userId"] = $userId;
+          // $data["data"]["pass"] = $error;
         }
       }
       

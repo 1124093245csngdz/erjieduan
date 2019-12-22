@@ -54,7 +54,7 @@ $(() => {
                 dataType: "json",
                 success: function (data) {
                     if (data.status == "success") {
-                        window.location.href = "http://127.0.0.1/index/guomei/client/html/Login.html";
+                        window.location.href = "http://127.0.0.1/index/guomei/erjieduan/client/html/Login.html";
                     } else {
                         alert(data.data.msg)
                     }
